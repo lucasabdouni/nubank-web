@@ -35,8 +35,6 @@ header{
   width: 48px;
   height: 48px;
 
-  background-color: red;
-
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -288,6 +286,21 @@ header{
 
   display: flex;
   flex-direction: column;
+
+  svg{
+    width: 36px;
+    width: 36px;
+    
+    path{
+      stroke: $gray-7;
+    }
+
+    &:hover{
+      path{
+        stroke: $primary-normal;
+      }
+    }
+  }
 }
 
 .nav-link-mobile{
