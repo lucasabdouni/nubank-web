@@ -18,28 +18,6 @@
   position: relative;
 }
 
-.swiper-container{
-  width: 100%;
-  height: 100%;
-
-  position: relative;
-}
-
-.swiper-slide{
-  max-width: 420px;
-
-  padding: 24px 36px;
-  margin: 0px 16px;
-  border-radius: 50px;
-
-  background-color: $white-normal;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
 .button-next{
   position: absolute;
   right: 32px;
@@ -69,10 +47,31 @@
   transform: rotate(180deg);
 }
 
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+}
+
+.swiper-slide{
+  max-width: 420px;
+
+  padding: 24px 36px;
+  border-radius: 50px;
+
+  background-color: $white-normal;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
 .photo-profile{
   width: 56px;
   height: 56px;
-
   border-radius: 50%;
 
   background-size: cover;
@@ -80,20 +79,25 @@
 }
 
 .photo-1{
-  background-image: ('../../assets/people1.png');
+  background-image: url('../../assets/people1.png');
 }
+
 .photo-2{
-  background-image: ('../../assets/people2.png');
+  background-image: url('../../assets/people2.png');
 }
+
 .photo-3{
-  background-image: ('../../assets/people3.png');
+  background-image: url('../../assets/people3.png');
 }
+
 .photo-4{
-  background-image: ('../../assets/people4.png');
+  background-image: url('../../assets/people4.png');
 }
+
 .photo-5{
-  background-image: ('../../assets/people5.png');
+  background-image: url('../../assets/people5.png');
 }
+
 .photo-6{
-  background-image: ('../../assets/people6.png');
+  background-image: url('../../assets/people6.png');
 }
